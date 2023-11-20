@@ -1,0 +1,24 @@
+input {
+  accent-color: #1b69d2;
+}
+input,
+select,
+option,
+textarea {
+  padding: 10px 12px;
+  background-color: #151b26;
+  border: 0;
+  border-radius: 4px;
+  color: #f7f9fc;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 200;
+}
+
+input[type="date"],
+select,
+option {
+  height: 44px;
+}
