@@ -39,7 +39,7 @@ const Blog = () => {
 
         {
           data.allMdx.nodes.map(node => (
-            <div className='grid'>
+            <div className='grid-4'>
               <div className="card hidden p-0 my-3">
                 <div className="thumb hidden">
                     <Link to={`/blog/${node.frontmatter.slug}`} className="p-0">
