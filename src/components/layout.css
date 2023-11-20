@@ -10,22 +10,3 @@
 .main {
     grid-area: main;
 }
-
-.topnav {
-    overflow: hidden;
-    background-color: #AECFDF;
-}
-
-.topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.topnav a:hover {
-    background-color: #9F9FAD;
-    color: black;
-}

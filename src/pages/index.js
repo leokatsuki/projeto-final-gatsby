@@ -7,8 +7,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <section className="container flex-center">
-        <div className="flex-between mt-9">
-          <div className="flex-start-column">
+        <div className="w-100 row mt-9">
+          <div className="grid-4 ml-7">
             <h1 className="h0">
               blog<span className="color-blue">.</span>
             </h1>
@@ -16,16 +16,17 @@ const IndexPage = () => {
               Um blog para todos. Escrever, ler, se conectar.
             </p>
             <div className="mt-4">
-              <Link to="/blog" className="btn mr-3">
+              <Link to="/blog" className="btn mr-4">
                 Ler noticias
               </Link>
-              <Link to="/newpost" className="btn">
+              <Link to="/newpost" className="btn homeBtn">
                 Começar a escrever
               </Link>
             </div>
           </div>
-          <div className="ml-9 flex-center">
-            <img src={BlogHome} alt="" />
+          <div className="grid-3"></div>
+          <div className="grid-3 flex-center">
+            <img src={BlogHome} alt="" className="homeLogo" />
           </div>
         </div>
       </section>

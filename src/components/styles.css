@@ -914,3 +914,19 @@ h6 {
     border-top: 1px solid #151B26;
     width: 100%;
  }
+
+ .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.homeLogo{
+  max-width: 360px;
+}
+
+@media screen and (max-width: 620px) {
+  .homeBtn{
+    margin-top: 20px;
+  }
+}
