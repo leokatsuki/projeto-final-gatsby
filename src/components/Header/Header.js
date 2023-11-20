@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useRef} from "react";
+import React, {useState} from "react";
 import { Link } from "gatsby";
 import "./header.css";
 import Logo from "../../../svg/logo.svg";

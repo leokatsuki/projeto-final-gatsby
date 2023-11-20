@@ -8,7 +8,7 @@ const About = () => {
       <section className="container flex-center">
         <div className="mt-9 flex-center">
           <div className="w-50 text-center">
-            <img src={BlogHome} className="w-30" />
+            <img src={BlogHome} className="w-30" alt=""/>
             <p className="mt-5">
               Trata-se de uma aplicação feita com gatsby e componentes react
               para aprendizagem da tecnologia dentro do curso de desenvolvimento
@@ -18,6 +18,7 @@ const About = () => {
               href="https://posgraduacao.infnet.edu.br/ead/pos-graduacao-desenvolvimento-web-full-stack/"
               target="_blank"
               className="btn mt-5"
+              rel="noreferrer"
             >
               Quero ver mais
             </a>

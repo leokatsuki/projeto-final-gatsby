@@ -42,7 +42,7 @@ function Footer() {
             </div>
 
             <div className="grid-9">
-                <p>2023 | Todos os direitos reservados. Projeto GATSBY do curso de <a href="https://posgraduacao.infnet.edu.br/ead/pos-graduacao-desenvolvimento-web-full-stack/" target="_blank">desenvolvimento web fullstack.</a> | Leonardo Katsuki Hiramatsu Rocha</p>
+                <p>2023 | Todos os direitos reservados. Projeto GATSBY do curso de <a href="https://posgraduacao.infnet.edu.br/ead/pos-graduacao-desenvolvimento-web-full-stack/" target="_blank" rel="noreferrer">desenvolvimento web fullstack.</a> | Leonardo Katsuki Hiramatsu Rocha</p>
             </div>
 
             <div className="grid-3">
